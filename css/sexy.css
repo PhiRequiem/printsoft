@@ -1,0 +1,150 @@
+body {
+	background: #E3E7F2;
+	font-family: helvetica;
+	font-size: 16px;
+	text-rendering: optimizeLegibility;
+	padding-bottom: 45px;
+}
+a:hover {
+	text-decoration: none;
+}
+h2 {
+	font-size: 1.3em;
+	margin: 0;
+	padding: 0;
+}
+input[type="text"] {
+	min-height: 30px;
+}
+ label {
+	max-width: 45%;
+	margin-right: 15px;
+	display: inline-block;
+}
+.order {
+	margin-top: 7px;
+}
+.product {
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	/*box-shadow: 0 0 5px black;*/
+	margin-bottom: 7px;
+	padding: 8px;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	border: 1px solid #7AA3CC;
+}
+.product h4 {
+	margin: 0;
+}
+.product-1 {
+	background: #D6EBFF;
+}
+.product-2 {
+	background: #B8DBFF;
+}
+.product-3 {
+	background: #EBCCFF;
+}
+.product-4 {
+	background: #E0CCE0;
+}
+.product-5 {
+	background: #B2D9D9;
+}
+.product-6 {
+	background: #F4E4BC;
+}
+.footer {
+	background: #2d2e33;
+	border-top: 1px solid gray;
+	bottom: 0;
+	color: #888;
+	font-size: 14px;
+	left: 0;
+	margin-top: 20px;
+	padding: 15px 0 15px 0;
+	position: fixed;
+	width: 100%;
+}
+.footer a {
+	color: #888;
+}
+.pie a:hover, .pie a>span:hover, .pie a:hover>span, .footer a:hover {
+	color: orange;
+}
+.pie {
+	color: #CCE6FF;
+}
+.pie a {
+	color: #B2B2B2;
+}
+.pie span {
+	color: #A3D1FF;
+} 
+.foot-logo {
+	display: inline-block;
+	text-align: right;
+	width: 20%;
+}
+.foot-menu {
+	display: inline-block;
+	width: 76%;
+}
+
+/*** formulario Login **/
+#login_forma>.input-prepend {
+	display: block ;
+}
+.loginbox {
+	background: #E6E6E6;
+	border: 1px solid #999;
+	border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	-ms-border-radius: 0.5em;
+	-o-border-radius: 0.5em;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+	-ms-box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+	-o-box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+  	padding: 0px 2em;
+	text-align: center;
+}
+.loginbox input {
+ 	width: 87%;
+}
+
+/** Extras **/
+.space-1 {
+	margin: 0.5em 0;
+}
+.space-2 {
+	margin: 1em 0;
+}
+.space-3 {
+	margin: 1.5em 0;
+}
+/** End Extras **/
+
+/* Large desktop */
+@media (min-width: 980px) {
+	body {padding-top: 60px;}
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+	.loginbox h1 {font-size: 1.7em;}
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	.span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12 {margin-bottom: 1em;}
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	.loginbox h1 {font-size: 2em;}
+	.span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12 {margin-bottom: 1em;}
+}
